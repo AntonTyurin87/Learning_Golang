@@ -13,6 +13,7 @@ func main() {
 
 	uniq := set(s) //Слпйс уникальных рун
 
+	//Считаем количество уникальных значений
 	for _, i := range uniq {
 		nowcnt := 0
 		for _, j := range s {
@@ -26,6 +27,8 @@ func main() {
 
 		}
 	}
+
+	//Выводим результат
 	fmt.Println(ans)
 }
 
