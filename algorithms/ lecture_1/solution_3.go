@@ -30,5 +30,7 @@ func main() {
 			ans = string(k)
 		}
 	}
+
+	//Выводим результат
 	fmt.Println(ans)
 }
