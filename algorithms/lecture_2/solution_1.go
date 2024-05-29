@@ -4,7 +4,7 @@ package main
 
 import "fmt"
 
-func findx(seq []int, x int) int {
+func findx_1(seq []int, x int) int {
 	ans := -1
 
 	for i, v := range seq {
@@ -22,5 +22,5 @@ func main() {
 	x := 2
 	seq := []int{1, 2, 1, 3, 3}
 
-	fmt.Println(findx(seq, x))
+	fmt.Println(findx_1(seq, x))
 }
